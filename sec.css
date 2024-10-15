@@ -1,0 +1,583 @@
+.mainpage{
+    width: 1,440px;
+    height: 771px;
+    top: 60px;
+    gap: 70px;
+    opacity: 0px;
+
+}
+.toplal {
+    width: 1440px; /* Corrected width */
+    height: 68px;
+    padding: 0 100px; /* Shortened padding */
+    gap: 0;
+    justify-items: space-between;
+    opacity: 0; /* Will hide the element visually */
+    display: flex;
+}
+
+.mediatoplol {
+    width: 430px;
+    height: 23.61px;
+    top: 30px;
+    padding: 0 20px; /* Shortened padding */
+    gap: 222px;
+    opacity: 0; /* Will hide the element visually */
+    display: none; /* Initially hidden */
+}
+
+@media (max-width: 700px) {
+    .mediatoplol {
+        display: flex; /* Shows the element */
+        opacity: 1; /* Make it visible */
+    }
+    
+    .toplal {
+        display: none; /* Hides the element */
+        opacity: 0; /* Optional: can be removed if display: none is set */
+    }
+}
+
+    
+
+.logo {
+    width: 219.54px;
+    height: 56px;
+    padding: 10px 0;
+    gap: 10px;
+    opacity: 1; /* Set to 1 for visibility */
+    display: flex;
+}
+
+
+.links {
+    width: 811px;
+    height: 68px;
+    gap: 40px;
+    opacity: 1; /* Set to 1 for visibility */
+    display: flex; /* Ensure it's displayed by default */
+}
+
+
+
+
+
+
+
+.links p{
+    width: 88px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+.links{
+    display: flex;
+}
+.lol{
+    color: white;
+}
+
+
+.landingpage{
+    width: 1,440px;
+    height: 515px;
+    padding: 0px;
+    gap: 0px;
+    justify-items: space-between;
+    opacity: 0px;
+    display: flex;
+ 
+    
+}
+
+.navigat{
+    width: Hug (531px)px;
+    height: Hug (481px)px;
+    gap: 35px;
+    opacity: 0px;
+
+}
+.oni{
+    width: 531px;
+    height: 231px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Space Grotesk;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+}
+
+
+.odi{
+    width: 498px;
+    height: 112px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+
+}
+
+
+.Book{
+    width: 190px;
+    height: 20px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 14px;
+    opacity: 0px;
+    background: #191A23;
+
+
+}
+.onbook{
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    width: 194px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    color: aliceblue;
+
+}
+
+
+
+.alert{
+    width: 1,440px;
+    height: 48px;
+    padding: 0px 100px 0px 100px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+
+}
+
+.alter{
+    width: 1,440px;
+    height: 48px;
+    padding: 0px 100px 0px 100px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    display: flex;
+
+}
+
+
+
+.onttt{
+    width: 1,440px;
+    height: 48px;
+    padding: 0px 100px 0px 100px;
+}
+
+.ser{
+    width: 1,440px;
+    height: 51px;
+    top: 971px;
+    padding: 0px 100px 0px 100px;
+    gap: 40px;
+    opacity: 0px;
+
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.orr{
+    width: 1,440px;
+    height: 48px;
+}
+
+
+
+.twoor{
+    width: 1,440px;
+    height: 310px;
+    top: 1102px;
+    gap: 40px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+.firbox{
+    width: 600px;
+    height: 310px;
+    padding: 50px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 45px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    background: #F3F3F3;
+    border: 1px solid #191A23;
+    display: flex;
+
+}
+
+.inside{
+    width: 221px;
+    height: 210px;
+    gap: 93px;
+    opacity: 0px;
+    width: 164px;
+    height: 41px;
+    gap: 15px;
+    opacity: 0px;
+ 
+}
+
+.arrow{
+    width: 41px;
+    height: 41px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+}
+.oich{
+    width: 108px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.secoundry{
+    width: 600px;
+    height: 310px;
+    padding: 50px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 45px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+
+    background: #B9FF66;
+    box-shadow: 0px 5px 0px 0px #191A23;
+    border: 1px solid #191A23;
+    display: flex;
+
+}
+
+
+.in{
+    width: Hug (209px)px;
+    height: Hug (210px)px;
+    gap: 93px;
+    opacity: 0px;
+
+}
+.tryonly{
+    width: 1,440px;
+    height:100px;
+}
+.olive{
+    width: Fixed (1,440px)px;
+    height: Hug (51px)px;
+    top: 1492px;
+    padding: 0px 100px 0px 100px;
+    gap: 40px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+.ookk{
+    width: 412px;
+    height: 51px;
+    padding: 0px 7px 0px 7px;
+    gap: 10px;
+    border-radius: 7px 0px 0px 0px;
+    opacity: 0px;
+    background: #B9FF66;
+
+
+}
+
+.Cards{
+    width: 1,434px;
+    height: 1,224px;
+    top: 1623px;
+    left: 3px;
+    padding: 0px 100px 0px 100px;
+    gap: 30px;
+    opacity: 0px;        
+}
+
+
+
+.cardone{
+    width: 1,234px;
+    height: 200px;
+    padding: 41px 60px 41px 60px;
+    gap: 30px;
+    border-radius: 45px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+    background: #B9FF66;
+
+}
+.insdecardone{
+    display: flex;
+    width: 1,117px;
+    height: 77px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+
+}
+
+.inincardone{
+    width: 702px;
+    height:  77px;
+    gap: 25px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+.onicah{
+    width: 65px;
+    height: 77px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+
+
+}
+
+.bmw{
+    width: 612px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.bmw p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+
+
+}
+
+.onemain{
+    width: 65px;
+    height: 77px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.cardte{
+    width: 1,234px;
+    height: 159px;
+    padding: 41px 60px 41px 60px;
+    gap: 10px;  
+    border-radius: 45px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #F3F3F3;
+    border: 1px solid #191A23
+}
+.insidete{
+    width: 1,117px;
+    height: 77px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+
+
+}
+.inou{
+    width: 712px;
+    height: 77px;
+    gap: 25px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+.two{
+    width: 75px;
+    height: 77px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+.two p {
+    font-family: Space Grotesk;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+
+}
+
+.twoo{
+    width: 612px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.two p {
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.28px;
+    text-align: left;
+
+}
+
+
+
+
+.lastmain{
+    width: 1,440px;
+    height: 773px;
+    top: 3095px;
+    padding: 0px 100px 0px 100px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+.inmain{
+    width: Fixed (1,240px)px;
+    height: Hug (773px)px;
+    padding: 60px 100px 80px 100px;
+    gap: 10px;
+    border-radius: 45px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(243, 243, 243, 1);
+    display: flex;
+
+
+}
+.outin{
+    width: Hug (556px)px;
+    height: Hug (633px)px;
+    gap: 40px;
+    opacity: 0px;
+
+}
+
+.intomain{
+    width: Hug (276px)px;
+    height: Hug (28px)px;
+    gap: 35px;
+    opacity: 0px;
+
+}
+
+.intomaint{
+    width: Hug (556px)px;
+    height: Hug (633px)px;
+    gap: 40px;
+    opacity: 0px;
+
+}
+
+.namebar{
+    width: Fixed (556px)px;
+    height: Hug (59px)px;
+    padding: 18px 30px 18px 30px;
+    gap: 10px;
+    border-radius: 14px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
+
+
+}
+
+.message{
+    width: Hug (556px)px;
+    height: Fixed (223px)px;
+    gap: 5px;
+    opacity: 0px;
+
+}
+
+
+.messagecommnit{
+    width: Fixed (556px)px;
+    height: Fixed (190px)px;
+    padding: 18px 30px 18px 30px;
+    gap: 10px;
+    border-radius: 14px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 1)
+
+}
+
+.domina{
+    width: 691.57px;
+    height: 648px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+
+.white{
+    color: rgba(243, 243, 243, 1);
+}
